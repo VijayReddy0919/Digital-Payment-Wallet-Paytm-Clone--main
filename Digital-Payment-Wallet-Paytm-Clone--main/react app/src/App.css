@@ -1,0 +1,122 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+}
+.me-auto {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #ed1515;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #0cc622;
+}
+
+/* Card styles */
+.card {
+    background-color: #b5df1d;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Home page styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.home-container h1 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-container p {
+    font-size: 1.25rem;
+    color: #6c757d;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .nav-link {
+        margin-right: 10px;
+    }
+
+    .card {
+        padding: 1.5em;
+    }
+
+    .home-container {
+        padding: 15px;
+    }
+
+    .home-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-container p {
+        font-size: 1rem;
+    }
+}
